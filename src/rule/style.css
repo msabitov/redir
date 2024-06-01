@@ -1,0 +1,24 @@
+ul {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    max-width: 12px;
+    max-height: 12px;
+    border-radius: 6px;
+}

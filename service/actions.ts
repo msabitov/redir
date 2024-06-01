@@ -1,0 +1,21 @@
+export const ACTIONS = {
+    SAVE_RULESET: 'saveRuleset',
+    DELETE_RULESET: 'deleteRuleset',
+    ENABLE_RULES: 'enableRules',
+    DISABLE_RULES: 'disableRules',
+    MOVE_RULE_UP: 'moveRuleUp',
+    MOVE_RULE_DOWN: 'moveRuleDown',
+    MOVE_RULESET_UP: 'moveRulesetUp',
+    MOVE_RULESET_DOWN: 'moveRulesetDown',
+    ACTIVATE: 'activate',
+    DEACTIVATE: 'deactivate',
+    DELETE_RULES: 'deleteRules',
+    SAVE_RULE: 'saveRule',
+    SET_RULES_CONFIG: 'setRulesConfig',
+    DELETE_REQUESTS: 'deleteRequests',
+    START_LISTEN: 'startListen',
+    STOP_LISTEN: 'stopListen',
+    INIT: 'init',
+    COPY: 'copy',
+    SET_REQUESTS_LIMIT: 'setRequstsLimit'
+} as const;
